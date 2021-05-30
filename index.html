@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Questions</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/header.css">
+    <link rel="stylesheet" type="text/css" href="./css/posts.css">
+    <link rel="stylesheet" type="text/css" href="./css/navLinkSideBar.css">
+
+</head>
+<body>
+	<!-- Header -->
+	<div class="container" style='margin-bottom: 64px'>
+            <div class="row">
+                <div class="col-12">
+                    <div style='position: fixed; z-index: 3'>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="https://stackoverflow.design/assets/img/logos/so/logo-stackoverflow.png" style="width: 160px;position: relative;object-fit: contain;top: -4px;"></img>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-5">
+                                    <li class="nav-item">
+                                        <a class="nav-link header-nav-link active" href="#" id='header-home-btn'>Home <span class="sr-only">(current)</span></a>
+                                    </li>
+                                    <li class="nav-item"> 
+                                        <a class="nav-link header-nav-link" href="#" id='header-topic-btn'>Topic</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link header-nav-link" href="#" id='header-tag-btn'>Tag</a>
+                                    </li>
+                                </ul>
+
+                                <form class="form-inline my-2 my-lg-0" >
+                                    <input class="form-control mr-sm-2" type="search" style='width: 440px' placeholder="Search" aria-label="Search" />
+                                    <button class="btn btn-outline-success my-2 my-sm-0 mr-4" type="submit">Search</button>
+                                </form>
+
+                                <div id="not-login">
+                                    <a href="login.html"><button type="button" class="btn btn-primary mr-1" id="header-log-in-btn">Log in</button></a>
+                                    <a href="signup.html"><button type="button" class="btn btn-secondary">Sign up</button></a>
+                                </div>
+
+                                <div id="had-login">
+                                    <div class="had-login-user">
+                                        <img class="had-login-user-avatar" src="https://i.pinimg.com/236x/8a/7e/40/8a7e400fa9ecbcf3a8893863bd4d13e5--manga-art-anime-manga.jpg"></img>
+                                        <span class="had-login-user-name">User Name</span>
+                                    </div>
+                                    <button type="button" class="btn btn-secondary" id="header-log-out-btn">Log out</button>
+                                </div>
+
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    <!-- Body -->
+     <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <div class="nav-link-side-bar">
+		            <ul class="list-group">
+		                <li class="list-group-item" ><a class="side-bar-link side-bar-link--active" id="side-bar-link-home">Home</a></li>
+		                <li class="list-group-item" >
+		                    <a class="side-bar-link" id="side-bar-link-public">Public</a>
+		                    <ul class="list-group">
+		                        <li class="list-group-item"><a href="user.html" class="side-bar-link" id="side-bar-link-user">Users</a></li>
+		                        <li class="list-group-item"><a class="side-bar-link" id="side-bar-link-topic">Topic</a></li>
+		                        <li class="list-group-item"><a class="side-bar-link" id="side-bar-link-tag">Tag</a></li>
+		                    </ul>
+		                </li>
+		            </ul>
+		        </div>
+		    
+                </div>
+
+                <div class="col-10">
+                    <div class="container">
+			            <div class="row">
+			                <div class="posts-container">
+            <div class="posts-container__header">
+                <p>Top Questions</p>
+                <a href="newPost.html"><button type="button" class="btn btn-primary ask_button">Ask Question</button></a>
+            </div>
+
+            <div class="post-item">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="post-item-detail">
+                                <div class="comments">
+                                    <p class="comment-count">1</p>
+                                    <p>Comments</p>
+                                </div>
+
+                                <div class="answers have-answers">
+                                    <p class="answer-count">1</p>
+                                    <p>Answers</p>
+                                </div>
+
+                                <div class="tags">
+                                    <p class="tag-count">3</p>
+                                    <p>Tags</p>
+                                </div>
+
+                                <div class="views">
+                                    <p class="view-count">16 views</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-10">
+                            <div class="post-item-body">
+                                <div class="post-item-title">
+                                    <h4>This is title topic</h4>
+                                </div>
+
+                                <div class="post-item-content">
+                                    <p> This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic  This is content of topic </p>
+                                </div>
+
+                                <div class="post-item-tags">
+                                    <a href="#">ReactJS</a>
+                                    <a href="#">Nodejs</a>
+                                </div>
+
+                                <div class="post-item-user">
+                                    <p>Asked 4 minutes ago</p>
+                                    <div class="user-detail">
+                                        <img src="https://i.pinimg.com/236x/8a/7e/40/8a7e400fa9ecbcf3a8893863bd4d13e5--manga-art-anime-manga.jpg"></img>
+                                        <span>User name</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+			            </div>
+			        </div>
+                </div>
+            </div>
+        </div>
+    
+    
+
+
+
+        <script src="./js/headerEv.js">
+
+        </script>
+
+        <script src="./js/navLinkSideBarEv.js">
+        	
+        </script>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+	    	integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+	    	crossorigin="anonymous"></script>
+	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+	    	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+	    	crossorigin="anonymous"></script>
+	  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+	    	integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+	    	crossorigin="anonymous">
+	    </script>
+</body>
+</html>
